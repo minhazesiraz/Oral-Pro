@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oral Pro</title>
+    <link rel="stylesheet" href="modus/style.css">
+    <script src="https://kit.fontawesome.com/c571f6245a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="store">
+            <nav>
+                <img src="/images/logo.png" alt="" class="logos">
+                <ul id="sideMenu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-texts">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Kevin</span><br>Jen From Bangladesh</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- ----- -- about store -- ----- -->
+        <div id="about">
+            <div class="store">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="/images/user.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero aut nostrum, eaque aliquid officia itaque error officiis, quasi, quod non optio commodi minima vero maxime eos a cupiditate alias hic enim quo quidem dolore. Aliquam culpa quod error repellendus ab consequuntur quisquam est quo voluptate mollitia rem, quia dicta.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                                <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC</li>
+                                <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                                <li><span>2016 - 2017</span><br>Internship at ekart eCommerce</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                                <li><span>2016</span><br>MBA from MIT Bangalore</li>
+                                <li><span>2014</span><br>BBA from ISM Bangalore</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----- -- about store ended -- ----- -->
+        <div id="services">
+            <div class="store">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, veniam cum. Totam excepturi vero suscipit.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, veniam cum. Totam excepturi vero suscipit.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, veniam cum. Totam excepturi vero suscipit.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----- -- services store ended -- ----- -->
+        
+        <div id="portfolio">
+            <div class="store">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="/images/work-1.png" alt="">
+                        <div class="layer">
+                            <h3>Social Media Apps</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, laudantium.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/work-2.png" alt="">
+                        <div class="layer">
+                            <h3>Music Apps</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, laudantium.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/work-3.png" alt="">
+                        <div class="layer">
+                            <h3>Online Shoping Apps</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, laudantium.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- ----- -- portfolio store ended -- ----- -->
+
+        <div id="contact">
+            <div class="store">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-at"></i> contact@minhazesiraz.com</p>
+                        <p><i class="fa-solid fa-mobile-button"></i> +8801736111145</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/minhazesiraz"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                        </div>
+                        <a href="/images/my-cv.pdf" download class="btn btn-cv">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your E-mail" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn-cv">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Kevin. Made with by Easy Tutorials</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sideMenu = document.getElementById("sideMenu");
+
+        function openMenu(){
+            sideMenu.style.right = "0";
+        }
+
+        function closeMenu(){
+            sideMenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxiQGNxw_hkaut6YQBgkVNWA33W89r9JqqrHVGT7jLgrNaVjmnHjZC9vXz6pg2fEGAy/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
